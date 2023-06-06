@@ -1,9 +1,9 @@
 In this folder
-- attack.sage: a custom attack script for the smallest q Mitaka parameters
+- attack.sage: a custom attack script for the smallest q Mitaka parameters from [[C:ETWY22]](https://link.springer.com/chapter/10.1007/978-3-031-15979-4_9)
 - distributionCheck.sage: functions that take in data from liftTest.sage and save and plot various figures comparing our model to experimental data
 - example.py: a simple example of how to run our main attack cost script against some parameters
 - fastTheta.py: our method for convolving theta series to determine the number of integer points in balls and boxes
-- lengthBound.py: a helper script that extracts nu from the various parameters suggested in [C:ETWY22]
+- lengthBound.py: a helper script that extracts nu from the various parameters suggested in [[C:ETWY22]](https://link.springer.com/chapter/10.1007/978-3-031-15979-4_9)
 - liftTest.sage: a script that runs our attack and collects data about the lengths of projected vectors in the sieve database and of lifted vectors
 - modelBKZ.py: functions that model the profiles output by BKZ reduction on q-ary lattice bases, initially from [Dilithium](https://github.com/pq-crystals/security-estimates/blob/master/model_BKZ.py).
 - runParams.py: run our attack cost script against small q Falcon and Mitaka instances
@@ -21,8 +21,8 @@ In data/
 - the pickle z-257-120-240-40-60-ones-heavy.pkl is the raw data from zShape.sage
 
 NOTE:
-    You will need the general sieve kernel installed in sage.
-    This can be achieved via installing sage onto your system via a method https://doc.sagemath.org/html/en/installation/ and then
+    You will need the general sieve kernel installed in sagemath.
+    This can be achieved via [installing](https://doc.sagemath.org/html/en/installation/) sage onto your system and then
 
         $ sudo apt install automake
         $ sage --pip install g6k
